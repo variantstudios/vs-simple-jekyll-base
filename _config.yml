@@ -1,5 +1,5 @@
 # Site settings
-title: "Jekyll Base"
+title: "Jekyll Simple Base"
 email: "team@variantstudios.com"
 description: "Our base repo for jekyll-based sites that use CloudCannon"
 baseurl: "" # the subpath of your site, e.g. /blog/ - keep empty!
@@ -18,12 +18,12 @@ gems:
 permalink: pretty
 
 # Cloudinary URL - something like: https://res.cloudinary.com/domain-com/
-cloudinaryurl: ""
+cloudinaryurl:
 
 # typekit - Because we all need nice type faces.
-typekit: ""
+typekit:
 
 # Google Analytics - What site isn't using it?!
-google_analytics_tracking_id: ""
+google_analytics_tracking_id:
 
 exclude: ["vendor","node_modules","package.json","Gemfile","gulpfile.js","*.scss"]
